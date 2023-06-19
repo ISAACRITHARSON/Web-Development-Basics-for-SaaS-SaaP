@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exp4</title>
+</head>
+<style>h1{text-align: center;
+color:white;}</style>
+<style>
+img {
+display: block;
+margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<body onload="pageloading()" onresize="resize()">
+<body style="background-color:yellow"></body>
+<h1>JavaScript – DOM Elements and Events</h1>
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0"
+src="doggy.gif" alt="Smiley" width="100" height="100">
+
+<h3><b>1. When the form is initially loading initially should display a message
+“your page
+is loading “using the onload() event.</b></h3>
+
+<script>
+function pageloading() {
+alert("Your page is loading..")
+}
+</script>
+<h3><b>2. Create a form structure where a client enters his details first name
+,second
+name ,address ,email id in it..</b></h3>
+  <script>
+function validateForm() {
+let x = document.forms["myForm"]["fname"].value;
+if (x == "") {
+alert("Name must be filled out");
+return false;
+}
+}
+</script>
+<script>
+$(document).ready(function(){
+$("#i1").focus(function(){
+$(this).css("background-color", "yellow");
+});
+
+});
+</script>
+<form name="myForm" action="/action_page.php" onsubmit="return
+validateForm()" method="post">
+FirstName: <br> <input type="text" id="fname"
+onchange="upperCase()" name="fname"><br><br>
+SecondName: <br><input type="text" id="sname"
+onchange="upperCase()" name="sname"><br><br>
+  Address:<br> <textarea name="address" cols="30"
+rows="5"></textarea><br><br>
+Emailid: <br><input type="text" name="sname"><br><br>
+<script>
+$(document).ready(function(){
+$("#fname").focus(function(){
+$(this).css("background-color", "green"); }); });
+</script>
+<input type="submit" value="Submit">
+<h3><b>3.In the top of the form place a gif image related to your form
+when mouse is
+placed over the gif its size should get increased to a particular size using
+onmouseover() event.</b></h3>
+<script>
+function bigImg(x) {
+x.style.height = "150px";
+x.style.width = "150px";
+}
+
+function normalImg(x) {
+x.style.height = "100px";
+x.style.width = "100px";
+}
+  </script>
+<h3><b>4.When mouse is moved away from gif its size should become
+normal (original
+position) using onmouseout() event.</b></h3>
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)"
+border="0" src="doggy.gif" alt="Smiley" width="150" height="150">
+<script>
+function bigImg(x) {
+x.style.height = "100px";
+x.style.width = "100px";
+}
+
+function normalImg(x) {
+x.style.height = "150px";
+x.style.width = "150px";
+}
+</script>
+<h3><b>5.Use media element related to the theme of the form your
+create</b></h3>
+<br><iframe width="420"
+height="315"src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&
+mute=1"></iframe>
+<h3><b>6.Use the text boxes to get the user names and password
+.</b></h3>
+  UserName: <input type="text" name="fname"><br><br>
+Password: <input type="password" id="myPsw" >
+<h3><b>7.Make use of radio buttons to give ranking level.</b></h3>
+<input type="radio" name="Gender" value="Excellent" />
+Excellent
+<input type="radio" name="Gender" value="Good" />
+Good
+<input type="radio" name="Gender" value="Good" />
+Bad<br>
+<h3><b>8.Use checkboxes to give reasons like why they liked it
+.</b></h3>
+<label for="myCheck">It was very easy to understand</label>
+<input type="checkbox" id="myCheck" onclick="myFunction()"><br>
+<label for="myCheck">Video quality was good</label>
+<input type="checkbox" id="myCheck" onclick="myFunction()">
+<h3><b>9.Enter the input in smaller case in the fields and when you
+leave the field it
+should get changed to Uppercase using onchange() event.</b></h3>
+<script>
+function upperCase() {
+const x = document.getElementById("fname");
+const y = document.getElementById("sname")
+x.value = x.value.toUpperCase();
+  y.value = y.value.toUpperCase();
+}
+</script>
+<h3><b>10.When detail is filled in first form field it should get focussed.
+Use focus () event
+and CSS property.</b></h3>
+<h3><b>12.Comments if they would like to give any .</b></h3>
+Comments:<br> <textarea name="address" cols="30"
+rows="5"></textarea><br><br>
+<h3><b>13.Use buttons to submit the form and reset to clear values
+entered.</b></h3>
+<input type="submit" value="Submit">
+<input type="reset" value="reset">
+</form>
+<h3><b>14.When you resize the form page a message should appear “your
+page is
+resized” using onresize() event.</b></h3>
+<script>
+
+function resize() {
+alert("Your Page is Resized")
+}
+</script>
+</body>
+</html>
