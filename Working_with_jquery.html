@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function (){
+$("p").click(function (){
+$(this).hide();
+});
+});
+</script>
+</head>
+<body>
+<h1>Q1</h1>
+<p> I am first paragraph</p>
+<p>I am second paragraph</p>
+<p>I am third paragraph</p>
+<p>I am fourth paragraph</p>
+<script>
+$(document).ready(function (){
+$("#b1").click(function (){
+$("#p2").toggle(3000);
+});
+});
+</script>
+<h1> Q2 </h1>
+<button id="b1">Toggle</button>
+<p id="p2">Toggle me if u want</p>
+<script>
+$(document).ready(function(){
+$("#b2").click(function(){
+$("#div1").fadeToggle("slow",function(){
+alert("Action is successfully completed");
+});
+$("#div2").fadeToggle("slow");
+});
+});
+</script>
+<h1>Q3</h1>
+<button id="b2">Click to fadetoggle boxes</button><br><br>
+
+<div id="div1" style="width:80px;height:80px;background-
+color:red;"></div>
+<br>
+
+<div id="div2" style="width:80px;height:80px;background-
+color:green;"></div>
+
+<br>
+<h1> Q4</h1>
+<p>Callback action after fadeIn and fadeOut</p>
+<!-- -->
+<script>
+$(document).ready(function(){
+$("#b5").click(function(){
+$("#p5").removeClass("properties");
+});
+});
+</script>
+<style>
+.properties{
+color: palevioletred;
+}
+</style>
+<h1>Q5</h1>
+<p id="p5" class = "properties">Click the button to remove CSS
+properties</p>
+<button id="b5">Click Me</button>
+<script>
+$(document).ready(function(){
+$("#i1").focus(function(){
+$(this).css("background-color", "yellow");
+});
+$("#b6").click(function(){
+$("#i2").val("G.A");
+});
+});
+</script>
+<h1>Q6</h1>
+First name: <input type="text" id="i1" name="Firstname"><br>
+Last name: <input type="text" id="i2" name="Lastname"><br>
+<button id="b6">Click Me</button>
+</body>
+</html>
