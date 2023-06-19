@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>1) Create a button and when you click it should display current date and
+time</p>
+<button onclick="showdt()">Click </button>
+<p id="current"></p>
+<script>
+function showdt(){
+const d1 = new Date();
+document.getElementById("current").innerHTML = d1;
+}
+</script>
+<p>2) Create a button and when you click it should display current date not
+time</p>
+<button onclick = "showd()">Click</button>
+<p id = "cd"></p>
+<script>
+function showd(){
+const d2 = new Date();
+  document.getElementById("cd").innerHTML = d2.toLocaleDateString();
+}
+</script>
+<p>3) Create a button and when you click it should display only current time
+not the date</p>
+<button onclick = "showt()">Click</button>
+<p id = "ct"></p>
+<script>
+function showt(){
+const d3 = new Date();
+document.getElementById("ct").innerHTML = d3.toLocaleTimeString();
+}
+</script>
+<p>4)JavaScript stores dates as milliseconds from Jan 1, 1970.What will be
+the date and time
+from jan 1 ,1970 if the milliseconds is 1000000 .
+</p>
+<h5>Output: </h5>
+<p id="milli"></p>
+<script>
+const d4 = new Date(1000000);
+document.getElementById("milli").innerHTML = d4;
+</script>
+<p>5)Display only the year by specifying the milliseconds
+100000000000.</p>
+<h5 id="myear"></h5>
+<script>
+const d5 = new Date(100000000000);
+document.getElementById("myear").innerHTML = d5.getFullYear();
+</script>
+<p>6)Create a button when you click the button the message “Your form has
+been submitted “
+should appear after 5 seconds.</p>
+<button onclick="time = setTimeout(msg,5000)">Start</button>
+<script>
+function msg(){
+alert("Your form has been submitted");
+}
+</script>
+<p>7)Stop the execution of the above program before the message could
+displayed.</p>
+<button onclick="clearTimeout(time)">Stop</button>
+<p>8)Display only the time where the seconds should get changed for every 2
+seconds (like a
+digital clock).
+  </p>
+<p id="setin"></p>
+<script>
+let interval = setInterval(Timer,2000);
+function Timer(){
+const d6 = new Date();
+document.getElementById("setin").innerHTML =
+d6.toLocaleTimeString();
+}
+</script>
+<p>9)Create a button named “stop” its function is to stop the execution if the
+above time (digital
+clock).
+</p>
+<button onclick="clearInterval(interval)">Stop The Time</button>
+<p>10) Display only the second where it should get continuously change for
+every next second.</p>
+<p id="sec"></p>
+<script>
+setInterval(seconds,1000);
+function seconds(){
+const d7 = new Date();
+  document.getElementById("sec").innerHTML = d7.getSeconds();
+}
+</script>
+</body>
+</html>
