@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+<form ng-app="myApp" ng-controller="validateCtrl"
+name="myForm" novalidate>
+<p>FIRST NAME:<br>
+<input type="text" name="user" ng-model="user" required>
+<span style="color:red" ng-show="myForm.user.$dirty && myForm.user.$invalid">
+<span ng-show="myForm.user.$error.required">Firstname is required.</span>
+</span>
+</p>
+<p>LAST NAME:<br>
+<input type="text" name="user1" ng-model="user1" required>
+<span style="color:red" ng-show="myForm.user1.$dirty && myForm.user1.$invalid">
+<span ng-show="myForm.user1.$error.required">lastname is required.</span>
+</span>
+</p>
+<p>PASSWORD:<br>
+<input type="text" name="user2" ng-model="user2" required>
+<span style="color:red" ng-show="myForm.user2.$dirty && myForm.user2.$invalid">
+<span ng-show="myForm.user2.$error.required">passsword is required.</span>
+</span>
+</p>
+<p>Email:<br>
+<input type="email" name="email" ng-model="email" required>
+<span style="color:red" ng-show="myForm.email.$dirty && myForm.email.$invalid">
+<span ng-show="myForm.email.$error.required">Email is required.</span>
+<span ng-show="myForm.email.$error.email">Invalid email address.</span>
+</span>
+</p>
+<p>Which of the following community Angular JS belong to?</p>
+<input type="radio" name="rank" value="rank1" required>
+<label for="rank1">Google</label><br>
+<input type="radio" name="rank" value="rank2" required>
+<label for="rank2">Twitter</label><br>
+<input type="radio" name="rank" value="rank3" required>
+<label for="rank3">Facebook</label><br>
+<p>Which is your field of interest?</p>
+<input type="checkbox" name="reason" value="reason1" >
+<label for="reason1">Artificial intelligence</label><br>
+<input type="checkbox" name="reason" value="reason2" >
+<label for="reason2">Data science</label><br>
+<input type="checkbox" name="reason" value="reason3" >
+<label for="reason3">Machine learning</label><br>
+<input type="checkbox" name="reason" value="reason1">
+<label for="reason1">Computer vision</label><br>
+<p>
+<input type="submit"
+ng-disabled="myForm.user.$dirty && myForm.user.$invalid ||
+myForm.email.$dirty && myForm.email.$invalid">
+</p>
+
+</form>
+<script>
+var app = angular.module('myApp', []);
+app.controller('validateCtrl', function($scope) {
+$scope.user = 'ISAAC ';
+$scope.user1 = 'RITHARSON';
+$scope.user2 = ' RITH';
+$scope.email = 'isaacritharson@karunya.edu.in';
+});
+</script>
+</body>
+</html>
