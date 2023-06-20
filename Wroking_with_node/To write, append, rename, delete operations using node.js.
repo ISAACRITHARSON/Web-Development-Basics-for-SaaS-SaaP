@@ -1,0 +1,31 @@
+fs = require('fs')
+fs.readFile('controller.html', 'utf8', function (err,data) {
+if (err) {
+return console.log(err);
+}
+console.log(data);
+});
+
+fs.writeFile('demo1.txt',"isaac",function (err) {
+if (err) {
+return console.log(err);
+}
+});
+fs.appendFile('demo1.txt'," is a good boy",function (err) {
+if (err) {
+return console.log(err);
+}
+});
+fs.rename('demo2.txt',"new.txt",function (err) {
+if (err) {
+
+return console.log(err);
+}
+});
+
+fs.unlink('hello.txt',function (err) {
+if (err) {
+
+return console.log(err);
+}
+});
