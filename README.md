@@ -1,2 +1,2 @@
-![App Screenshot](https://user-images.githubusercontent.com/74038190/240304586-d48893bd-0757-481c-8d7e-ba3e163feae7.png)
+![App Screenshot](https://user-images.githubusercontent.com/74038190/240304579-c288471c-be67-4fbb-af44-1c63ee9ed280.png)
 # Web-Development-Practice-Repository
