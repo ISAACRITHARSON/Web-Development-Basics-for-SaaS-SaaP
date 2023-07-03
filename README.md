@@ -39,7 +39,7 @@ Throughout this repository, we will provide detailed explanations, code examples
  - [Blogs](https://css-tricks.com/almanac/)
  - [Sites](https://developer.mozilla.org/)
 
-<img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png" height="250" width="250"/>
+<img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png" height="300" width="300"/>
 ## Essential Libraries
 
 - jQuery
