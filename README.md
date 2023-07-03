@@ -34,8 +34,8 @@ Throughout this repository, we will provide detailed explanations, code examples
 
 ## Acknowledgements
 
- - [Video Tutorials](https://www.youtube.com/c/Freecodecamp/playlists) (Stanford: Free Code camp)
- - [Blogs]([https://machinelearningmastery.com/start-here/](https://css-tricks.com/almanac/))
+ - [Video Tutorials](https://www.youtube.com/c/Freecodecamp/playlists) (Source: Free Code camp)
+ - [Blogs](https://css-tricks.com/almanac/)
  - [Sites](https://developer.mozilla.org/)
 
 
