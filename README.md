@@ -3,7 +3,7 @@
 # Front-End-Development-Basics-with-HTML-CSS & Javascript-Repository
 Welcome to the Web Development Repository! Here, we will explore various topics and tools to enhance your web development skills. Let's dive into the world of web development!
 
-![App Screenshot](https://cdn.icon-icons.com/icons2/2248/PNG/512/dev_to_icon_136699.png)
+![App Screenshot]()
 
 ### HTML5 and CSS3: Building the Foundation
 In this section, we will explore HTML5 and CSS3, the building blocks of web development. You will learn to create interactive forms, incorporate multimedia elements, and develop stylish web designs using advanced CSS3 techniques.
