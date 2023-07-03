@@ -39,7 +39,7 @@ Throughout this repository, we will provide detailed explanations, code examples
  - [Sites](https://developer.mozilla.org/)
 
 
-![Logo](https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg)
+![Logo](https://cdn.hackr.io/uploads/posts/attachments/visual-studio-code1.png)
 
 ## Essential Libraries
 
@@ -58,4 +58,4 @@ Optional: Visual Studio Code (VS Code), Sublime Text, Atom, WebStorm, Brackets, 
 
 ## Hit Me up
 
-What did you learn while learning this course? What challenges did you face ?, write to me isaacritharson@karunya.edu.in
+What did you learn while learning this course? What challenges did you face ? write to me isaacritharson@karunya.edu.in
