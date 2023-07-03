@@ -41,7 +41,6 @@ Throughout this repository, we will provide detailed explanations, code examples
  - [Sites](https://developer.mozilla.org/)
 
 <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png" height="300" width="300"/>
-
 ## Essential Libraries
 
 - jQuery
