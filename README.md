@@ -34,26 +34,26 @@ Throughout this repository, we will provide detailed explanations, code examples
 
 ## Acknowledgements
 
- - [Video Tutorials](https://youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU) (Stanford: Andrew Ng)
- - [Blogs](https://machinelearningmastery.com/start-here/)
- - [Sites](https://www.kaggle.com/learn/intro-to-machine-learning)
+ - [Video Tutorials](https://www.youtube.com/c/Freecodecamp/playlists) (Stanford: Free Code camp)
+ - [Blogs]([https://machinelearningmastery.com/start-here/](https://css-tricks.com/almanac/))
+ - [Sites](https://developer.mozilla.org/)
 
 
-![Logo](https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg)
+![Logo](https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg)
 
 ## Essential Libraries
 
-- Numpy
-- Scipy
-- Scikit-learn
-- TensorFlow
-- Keras
-- PyTorch
-- Pandas
-Matplotlib
+- jQuery
+- Bootstrap
+- React
+- AngularJS
+- Vue.js
+- Express.js
+- Sass
+- Matplotlib
 ## IDE
 
-Optional: PyCharm, Jupyter Notebook, TensorFlow/Keras, Visual Studio Code, RStudio, Spyder
+Optional: Visual Studio Code (VS Code), Sublime Text, Atom, WebStorm, Brackets, Eclipse IDE for Web Developers, PhpStorm
 
 
 ## Hit Me up
