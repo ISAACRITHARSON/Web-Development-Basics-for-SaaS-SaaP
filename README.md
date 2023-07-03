@@ -3,13 +3,15 @@
 # Front-End-Development-Basics-with-HTML-CSS & Javascript-Repository
 Welcome to the Web Development Repository! Here, we will explore various topics and tools to enhance your web development skills. Let's dive into the world of web development!
 
-<img src="https://user-images.githubusercontent.com/74038190/238200426-29fd6286-4e7b-4d6c-818f-c4765d5e39a9.gif" height="120" width="120"/>
+<img src="https://user-images.githubusercontent.com/74038190/238200426-29fd6286-4e7b-4d6c-818f-c4765d5e39a9.gif" height="170" width="170"/>
 
 ### HTML5 and CSS3: Building the Foundation
 In this section, we will explore HTML5 and CSS3, the building blocks of web development. You will learn to create interactive forms, incorporate multimedia elements, and develop stylish web designs using advanced CSS3 techniques.
 
 ### Responsive Website Design with Bootstrap
 Responsive design is essential for modern websites. This section will delve into Bootstrap, a popular front-end framework. You will learn how to leverage Bootstrap's grid system, components, and utilities to create responsive and visually appealing websites that adapt to different screen sizes.
+
+<img src="https://user-images.githubusercontent.com/74038190/219923823-bf1ce878-c6b8-4faa-be07-93e6b1006521.gif" height="170" width="170"/>
 
 ### JavaScript: DOM Manipulation and Event Handling
 JavaScript is a fundamental language for web development. In this section, we will dive into JavaScript's Document Object Model (DOM) and learn how to manipulate HTML elements dynamically. You will also explore event handling and learn how to respond to user interactions, such as clicks and input changes.
