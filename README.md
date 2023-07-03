@@ -39,7 +39,7 @@ Throughout this repository, we will provide detailed explanations, code examples
  - [Sites](https://developer.mozilla.org/)
 
 
-![Logo](https://cdn.hackr.io/uploads/posts/attachments/visual-studio-code1.png)
+![Logo](https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png)
 
 ## Essential Libraries
 
