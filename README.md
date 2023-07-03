@@ -10,7 +10,7 @@ In this section, we will explore HTML5 and CSS3, the building blocks of web deve
 ### Responsive Website Design with Bootstrap
 Responsive design is essential for modern websites. This section will delve into Bootstrap, a popular front-end framework. You will learn how to leverage Bootstrap's grid system, components, and utilities to create responsive and visually appealing websites that adapt to different screen sizes.
 
-<img src="https://user-images.githubusercontent.com/74038190/219923823-bf1ce878-c6b8-4faa-be07-93e6b1006521.gif" height="320" width="580"/>
+<img src="https://user-images.githubusercontent.com/74038190/219923823-bf1ce878-c6b8-4faa-be07-93e6b1006521.gif" height="320" width="570"/>
 
 ### JavaScript: DOM Manipulation and Event Handling
 JavaScript is a fundamental language for web development. In this section, we will dive into JavaScript's Document Object Model (DOM) and learn how to manipulate HTML elements dynamically. You will also explore event handling and learn how to respond to user interactions, such as clicks and input changes.
@@ -39,7 +39,7 @@ Throughout this repository, we will provide detailed explanations, code examples
  - [Blogs](https://css-tricks.com/almanac/)
  - [Sites](https://developer.mozilla.org/)
 
-<img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png" height="200" width="200"/>
+<img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png" height="250" width="250"/>
 ## Essential Libraries
 
 - jQuery
