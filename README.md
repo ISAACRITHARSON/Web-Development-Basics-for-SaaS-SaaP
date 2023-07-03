@@ -22,7 +22,7 @@ jQuery is a powerful JavaScript library that simplifies DOM manipulation and eve
 ### AngularJS: Building Dynamic Web Applications
 AngularJS is a popular JavaScript framework for building dynamic web applications. In this section, we will explore AngularJS's core concepts, including directives, controllers, and services. You will learn how to create reusable components, handle data binding, and build powerful single-page applications (SPAs).
 
-![App Screenshot](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*3PKdNWD6UJobb_JDWV5elg.png)
+<img src="https://user-images.githubusercontent.com/74038190/212280823-79088828-a258-4a4d-8d6c-96315d5a07af.gif" height="170" width="170"/>
 
 #### AngularJS Form Validation
 Validating user input is crucial for data integrity in web forms. In this section, we will focus on AngularJS's built-in form validation capabilities. You will learn how to implement validation rules, display error messages, and ensure a seamless user experience when dealing with user input.
