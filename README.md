@@ -4,6 +4,7 @@
 Welcome to the Web Development Repository! Here, we will explore various topics and tools to enhance your web development skills. Let's dive into the world of web development!
 
 <img src="https://user-images.githubusercontent.com/74038190/238200426-29fd6286-4e7b-4d6c-818f-c4765d5e39a9.gif" height="150" width="150"/>
+
 ### HTML5 and CSS3: Building the Foundation
 In this section, we will explore HTML5 and CSS3, the building blocks of web development. You will learn to create interactive forms, incorporate multimedia elements, and develop stylish web designs using advanced CSS3 techniques.
 
@@ -40,6 +41,7 @@ Throughout this repository, we will provide detailed explanations, code examples
  - [Sites](https://developer.mozilla.org/)
 
 <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png" height="300" width="300"/>
+
 ## Essential Libraries
 
 - jQuery
